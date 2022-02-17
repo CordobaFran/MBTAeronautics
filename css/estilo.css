@@ -999,7 +999,7 @@ text-align: center;
 	margin: 10px 0px;
 }
 
-@media screen and (max-width: 413px){
+@media screen and (max-width: 913px){
 	.instruccion__main{
 	grid-template-rows: 200px auto auto 200px;
 	}
