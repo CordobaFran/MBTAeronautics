@@ -267,6 +267,7 @@ text-align: center;
 
 /*//////Portada//////*/
 .index__portada{
+	display: flex;
 	background-image: url("../assets/img/portada01.jpg");
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -277,6 +278,7 @@ text-align: center;
 	width: 100%;
 	z-index: 0;
 	margin-bottom: 50px;
+	justify-content: center;
 }
 
 /*//////Nosotros//////*/
@@ -356,12 +358,32 @@ figure img{
 	height: 200px;
 }
 
-.animate__fadeInRight{
-	font-size: 50px;
+.main__h1{
+	display: flex;
 	text-shadow: 5px 5px 5px gray;
 	padding: 20px;
-	text-align: center;
-	margin: 0px;
+	margin: 20px 0 0;
+	width: 300px;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.main__h1--size2{
+	margin-top: 20px;
+	font-size: 30px;
+	font-family: 'Frijole', cursive;
+	font-weight: normal;
+	font-style: italic;
+  color: #e3e4de;
+  text-shadow: 5px 5px 5px #00000087;
+}
+
+.main__h1--size1{
+	font-size: 50px;
+	font-family: 'Frijole', cursive;
+	font-weight: normal;
+  color: #e3e4de;
+  text-shadow: 5px 5px 5px #00000087;
 }
 
 /*.article__nosotros p, .article__servicios div p, .flota__description p{
@@ -405,6 +427,7 @@ hr.section__line{
 
 	.main__h1{
 	font-size: 30px;
+	width: 280px;
 	}
 }
 
@@ -1154,7 +1177,7 @@ text-align: center;
 	
 	grid-template-areas: 
 	"nombre"
-	"apellido"
+	"apellido"aaaaaaaa
 	"mail"
 	"telf"
 	"msj"
